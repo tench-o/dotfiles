@@ -13,14 +13,14 @@ if &compatible
 endif
 
 " Required:
-set runtimepath+=/Users/rwada/.cache/dein/repos/github.com/Shougo/dein.vim
+set runtimepath+=~/.cache/dein/repos/github.com/Shougo/dein.vim
 
 " Required:
-call dein#begin('/Users/rwada/.cache/dein')
+call dein#begin('~/.cache/dein')
 
 " Let dein manage dein
 " Required:
-call dein#add('/Users/rwada/.cache/dein/repos/github.com/Shougo/dein.vim')
+call dein#add('~/.cache/dein/repos/github.com/Shougo/dein.vim')
 
 " Add or remove your plugins here like this:
 call dein#add('Lokaltog/vim-powerline')
@@ -72,6 +72,6 @@ set t_Co=256
 set laststatus=2
 set showtabline=2 
 
-"let g:airline#extensions#tabline#enabled = 1
+let g:airline#extensions#tabline#enabled = 0
 let g:airline_powerline_fonts = 1
 set ambiwidth=double
